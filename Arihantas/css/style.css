@@ -326,6 +326,7 @@ nav a#openup img{
 }
 
 @media screen and (max-width: 580px) {
+  
   .section{
     display: none;
   }
@@ -334,7 +335,7 @@ nav a#openup img{
   }
 
   #showcase {
-    height: 50vh;
+    height: 450px;
   }
 
   #showcase .container {
