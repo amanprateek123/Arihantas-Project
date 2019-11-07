@@ -169,7 +169,8 @@ section #gift-cards{
    transition: .5s;
    cursor: pointer;
  }
- 
+  
+
 
 /* Footer */
 footer .footer-cols {
@@ -303,8 +304,31 @@ nav a#openup {
 nav a#openup img{
   width: 200px;
 }
+.slider{
+  margin: 10px;
+  height: 500px;
+  width: 1300px;
+  animation: animate 12s ease infinite;
+}
+@keyframes animate {
+  0%{
+    background-image: url("http://arihantasinstitute.com/wp-content/uploads/2018/12/slide-1.jpg");
+  }
+ 
+  50%{
+    background-image: url("http://arihantasinstitute.com/wp-content/uploads/2018/12/slide-3.jpg");
+  }
+  100%{
+    background-image: url("http://arihantasinstitute.com/wp-content/uploads/2018/12/slide-2.jpg");
+  }
+ 
+  
+}
 
 @media screen and (max-width: 580px) {
+  .section{
+    display: none;
+  }
   .hide-on-small {
     display: none;
   }
